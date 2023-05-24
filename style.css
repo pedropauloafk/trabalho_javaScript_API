@@ -1,0 +1,75 @@
+/* Estilos gerais */
+  
+  
+  .cabecalho {
+    background-color: #1b79c5;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50;
+    width: 100%;
+    padding: 0;
+   
+ 
+  }
+
+
+  .rodape {
+    
+    background-color: #1b79c5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+ 
+
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+
+  .menu_pesquisa{
+
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 30px;
+  }
+
+
+  /* Configuração padrão da pagina */
+
+  body, html{
+
+    margin: 0;
+    font: 16px "Lato",sans-serif;
+   
+ /*  background-image: url(/Imagens/hovawart-golden-puppy-isolated-blue-background-portrait-cute-golden-retriever-isolated_174533-2425.avif);
+   
+ */
+  
+  }
+
+  .bloco-pesquisa {
+
+      width: 500px;
+      position: relative;
+      background-color: black;
+
+
+  }
+
+  .principal {
+
+    position: fixed;
+    margin: 100px;
+
+
+  }
+
+
+  
+  
