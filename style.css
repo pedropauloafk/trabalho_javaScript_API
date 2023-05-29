@@ -34,8 +34,9 @@
   .menu_pesquisa{
 
     text-align: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
+    font-size: 20;
     padding: 30px;
   }
 
@@ -47,9 +48,13 @@
     margin: 0;
     font: 16px "Lato",sans-serif;
    
- /*  background-image: url(/Imagens/hovawart-golden-puppy-isolated-blue-background-portrait-cute-golden-retriever-isolated_174533-2425.avif);
+  background-image: url(/Imagens/fundo2.jpg);
+  background-position: right;
+  background-size: cover;
+
+
    
- */
+ 
   
   }
 
@@ -70,6 +75,81 @@
 
   }
 
+  .espaco-imagem {
+
+    width: 600px;
+    height: 600px;
+    display: inline;
+    justify-content: center;
+   
+
+    
+    
+   
+
+
+  }
+
+  .imagem {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+   
+
+
+  }
+
+  .botao  {
+
+    font-size:1.2em;
+    color: #1b79c5;
+    text-align: center;
+    
+    
+    
+
+
+  }
+
+  .cachorro {
+
+    font-size:1.2em;
+    color: #1b79c5;
+
+  }
+
+  .conteudo-pesquisa {
+
+      position: fixed;
+      bottom: 350px;
+      justify-content: center;
+      
+
+  }
+
+  .imagens-salvas {
+
+    width: 600px;
+    width: 600px;
+    bottom: 150px;
+    display: inline;
+    margin-top: 50px;
+
+
+  }
+
+  .imagens-salvas img {
+
+    margin-top: 500px;
+    max-width: 250px;
+    max-height: 250px;
+    display: inline;
+    
+
+  }
 
   
   

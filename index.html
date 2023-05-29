@@ -19,32 +19,52 @@
    
   </header>
 
-   <main class="principal">
+  <main class="principal">
 
   
 
     <div class="conteudo-pesquisa">
-      <label for="cachorro">Raça Cachorro</label>
+        <label style="font-size:1.2em; color: #1b79c5;" for="cachorro">Raça Cachorro</label>
 
-      <select name="" id="">
-        <option value="akita"> Akita</option>
-        <option value="husk">Husk</option>
-        <option value="pitbull">Pitbull</option>
-        <option value="labrador">Labrador</option>
-        <option value="rottweiler">Rottweiller</option>
+        <select class="cachorro" name="" id="id_cachorro">
+          <option value="akita"> Akita</option>
+          <option value="husky">Husky</option>
+          <option value="pitbull">Pitbull</option>
+          <option value="labrador">Labrador</option>
+          <option value="rottweiler">Rottweiller</option>
+        </select>
+        <button class="botao" onclick="pegaDados()" id="botao"> Pesquisar</button>
+        <button class="botao" id=""> Salvar Imagem</button>
 
-      </select>
-      <button id="botao"> Pesquisar</button>
+        </div>
+
+
+
+      <div class="espaco-imagem"> 
+            
+        <img class="imagem" id="imagem1" /> 
+        <img class="imagem" id="imagem2"/>
+        <img class="imagem" id="imagem3"/>
+        <img class="imagem" id="imagem4"/>
+        <img class="imagem" id="imagem5"/>
+
+          
+      </div>
 
     </div>
 
-   
 
 
     </main>
 
-   
+    <div class="imagens-salvas">
 
+      
+
+    </div>
+
+   
+    
   <footer>
 
     <nav class="rodape">
