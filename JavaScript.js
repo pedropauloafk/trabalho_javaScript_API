@@ -4,7 +4,7 @@
      
    function pegaDados(){
         var selecionaRaca = pegaRaca.value;
-        const buscaDados = `https://dog.ceo/api/breed/${selecionaRaca}/images/random/5`
+        const buscaDados = `https://dog.ceo/api/breed/${selecionaRaca}/images/random`
 
 
         fetch (buscaDados)
@@ -14,12 +14,7 @@
         } )
         .then(function(cachorro) {
 
-            for ( var i = 1; i <6; i++){
-
-                mostraFoto(cachorro.message[i - 1],i)
-
-            }
-            
+                mostraFoto(cachorro.message) 
 
         })
 
@@ -32,14 +27,15 @@
     }
 
 
-    function mostraFoto(imagem,i){
+    function mostraFoto(imagem){
 
-        document.getElementById('imagem'+ i).src = imagem;
+        document.getElementById('imagem').src = imagem
         
 
 
 
     }
+
 
 
 

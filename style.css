@@ -21,9 +21,7 @@
     position: fixed;
     width: 100%;
     bottom: 0;
-    
- 
-
+  
   }
   
   h1 {
@@ -43,18 +41,14 @@
 
   /* Configuração padrão da pagina */
 
-  body, html{
+  body{
 
     margin: 0;
     font: 16px "Lato",sans-serif;
-   
-  background-image: url(/Imagens/fundo2.jpg);
-  background-position: right;
-  background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(#1b79c5,white);
 
-
-   
- 
   
   }
 
@@ -64,14 +58,12 @@
       position: relative;
       background-color: black;
 
-
   }
 
   .principal {
 
     position: fixed;
     margin: 100px;
-
 
   }
 
@@ -81,24 +73,15 @@
     height: 600px;
     display: inline;
     justify-content: center;
-   
-
-    
-    
-   
-
 
   }
 
   .imagem {
-    max-width: 250px;
-    max-height: 250px;
-    margin: 10px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 10px;
     overflow: hidden;
-    
-   
-
+  
 
   }
 
@@ -107,10 +90,15 @@
     font-size:1.2em;
     color: #1b79c5;
     text-align: center;
-    
-    
+    border-radius: 5px;
     
 
+  }
+
+  .botao :hover{
+
+    color: #fff;
+    opacity: 0.5;
 
   }
 
@@ -127,7 +115,6 @@
       bottom: 350px;
       justify-content: center;
       
-
   }
 
   .imagens-salvas {
@@ -138,7 +125,6 @@
     display: inline;
     margin-top: 50px;
 
-
   }
 
   .imagens-salvas img {
@@ -147,9 +133,5 @@
     max-width: 250px;
     max-height: 250px;
     display: inline;
-    
 
   }
-
-  
-  
